@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DevDocs',
-  tagline: 'Developers need documentation, this is where I write it down when they don\'t',
+  tagline: 'Developers need documentation and this is where I write down what they haven\'t',
   url: 'https://devdocs.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -55,7 +55,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/philificent/docusaurus',
             label: 'GitHub',
