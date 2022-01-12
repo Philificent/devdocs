@@ -43,7 +43,7 @@ You have no doubt wondered which applications do what, and which ones you need. 
 ## Recommended VS Code Extensions
 
 - [Synk](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner) (Websec/vulnerability)
-- [Vuter](https://marketplace.visualstudio.com/items?itemName=octref.vetur) (If you use Vue, this might help)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) (If you use Vue, this might help)
 - [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env) (.env format/highlighter)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (JavaScript goodness checker)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (See how committed what and where - git awesomeizer)
