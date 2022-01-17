@@ -73,6 +73,10 @@ const config = {
                   label: 'Docs',
                   to: '/docs',
                 },
+                {
+                  label: 'Snippets',
+                  to: '/docs/snippets',
+                },
               ],
             },
             // {
