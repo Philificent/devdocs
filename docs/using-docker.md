@@ -50,7 +50,7 @@ RUN wget -O "/usr/local/bin/go-replace" "https://github.com/webdevops/goreplace/
     && "/usr/local/bin/go-replace" --version
 ```
 
-Now that we have a couple of dockerfiles, we need to fun them to create the images locally so that we can use them in our `docker-compose` file. If you installed the Docker extension in Visual Studio Code, then you can just right-click on one of those files and scroll to the bottom of the context-menu and click on "Build Image...". This will build the new image with the proper version of Go so that you can run emulation mode and not have the constant restart for your main image.
+Now that we have a couple of dockerfiles, we need to fun them to create the images locally so that we can use them in our `docker-compose` file. If you installed the Docker extension in Visual Studio Code, then you can just right-click on one of those files and scroll to the bottom of the context-menu and click on "Build Image...", then name the image with the same name as the dockerfile ie, `php-nginx-73-arm`. This will build the new image with the proper version of Go so that you can run emulation mode and not have the constant restart for your main image.
 
 After you have built both of them you'll need to change the docker-compose file via an override.
 

@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/philificent/devdocs/',
+          editUrl: 'https://github.com/philificent/devdocs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/philficent/devdocs/',
+            'https://github.com/philficent/devdocs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: 'DevDocs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'DevDocs Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -55,7 +55,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/snippets', label: 'Snippets', position: 'left'},
           {
             href: 'https://github.com/philificent/docusaurus',
             label: 'GitHub',
@@ -67,11 +67,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
                 label: 'Docs',
                 to: '/docs',
+              },
+              {
+                label: 'Snippets',
+                to: '/docs/snippets',
               },
             ],
           },
@@ -95,10 +99,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Snippets',
+              //   to: '/snippets',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/philificent/devdocs',

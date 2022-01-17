@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'No fluff or faff',
+    title: 'Stop faffing about',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
