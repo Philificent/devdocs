@@ -18,4 +18,3 @@ Live Example:
   <br />
   <img src="https://picsum.photos/320/400" alt="FPO image" width="320" height="400" loading="lazy" />
 </section>
-
